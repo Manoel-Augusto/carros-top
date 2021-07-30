@@ -1,29 +1,32 @@
-.main-nav{
-padding-left:88px;
-padding-top: 21px;
-padding-bottom: 21px;
-min-height: 70px; 
+.main-nav {
+  padding-left: 10px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  min-height: 70px;
 }
 
-.nav-logo-text, .nav-logo-text:hover{
-  color: #00285F;
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
 }
-.main-menu{
-  display:flex;
+.main-menu {
+  display: flex;
   font-size: 18px;
   width: 380px;
   justify-content: space-around;
 }
 
-.main-menu a{
-  color: #00285F;
+.main-menu a {
+  color: #00285f;
 }
-
-.main-menu a:hover{
+.main-menu a:hover {
   color: #fff;
 }
 
-.main-menu a.active{
+.main-menu a.active {
   font-weight: bold;
 }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,40,95,1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
